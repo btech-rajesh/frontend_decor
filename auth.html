@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Login Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <!-- signin/up page -->
+    <button type="button" class="signBtn" onclick="window.location.href='index.html';">SignIn/Up</button>
+
+    <a href="index.html" class="logo"></a>
+
+    <!-- Modal for sign-in and sign-up -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            
+            <!-- for switching between Sign In and Sign Up-->
+            <div class="tab">
+                <button id="signInTab" class="tablinks active">Sign In</button>
+                <button id="signUpTab" class="tablinks">Sign Up</button>
+            </div>
+
+            
+            <div id="signInForm" class="form-container">
+               
+            </div>
+
+            
+            <div id="signUpForm" class="form-container" style="display: none;">
+               
+            </div>
+
+        </div>
+
+    <script src="app1.js"></script>
+</body>
+</html>
